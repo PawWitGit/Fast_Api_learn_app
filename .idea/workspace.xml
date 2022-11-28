@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bade2756-c83a-4d5d-8e31-edf991433085" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/static/images/logo.png" afterDir="false" />
+    <list default="true" id="bade2756-c83a-4d5d-8e31-edf991433085" name="Changes" comment="add psycopg2">
+      <change afterPath="$PROJECT_DIR$/backend/db/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/db/base_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/db/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/templates/components/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/components/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/pawel/PycharmProjects/fastApiProject1/backend/static/images",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pawel/PycharmProjects/fastApiProject1/backend/static/images&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend/static/images" />
@@ -77,8 +77,17 @@
       <updated>1669228688396</updated>
       <workItem from="1669228702088" duration="32000" />
       <workItem from="1669232002446" duration="3110000" />
-      <workItem from="1669654316114" duration="2387000" />
+      <workItem from="1669654316114" duration="2693000" />
+      <workItem from="1669657017167" duration="1138000" />
     </task>
+    <task id="LOCAL-00001" summary="add psycopg2">
+      <created>1669656738516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669656738516</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +104,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add psycopg2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add psycopg2" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fastApiProject1$fastApiProject1.coverage" NAME="fastApiProject1 Coverage Results" MODIFIED="1669654421753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fastApiProject1$fastApiProject1.coverage" NAME="fastApiProject1 Coverage Results" MODIFIED="1669657934555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
