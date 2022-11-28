@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bade2756-c83a-4d5d-8e31-edf991433085" name="Changes" comment="add psycopg2" />
+    <list default="true" id="bade2756-c83a-4d5d-8e31-edf991433085" name="Changes" comment="add psycopg2">
+      <change afterPath="$PROJECT_DIR$/backend/apis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/apis/general_pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/static/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +80,7 @@
       <workItem from="1669228702088" duration="32000" />
       <workItem from="1669232002446" duration="3110000" />
       <workItem from="1669654316114" duration="2693000" />
-      <workItem from="1669657017167" duration="1174000" />
+      <workItem from="1669657017167" duration="2976000" />
     </task>
     <task id="LOCAL-00001" summary="add psycopg2">
       <created>1669656738516</created>
@@ -87,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669658185287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add psycopg2">
+      <created>1669658195001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669658195001</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add psycopg2">
+      <created>1669658334780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669658334780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
